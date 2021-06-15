@@ -1,0 +1,380 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"> -->
+	<link href="public/css/tailwind.css" rel="stylesheet">
+	<link href="public/css/app.css" rel="stylesheet">
+
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<p class="bg-blue-purple text-white text-base lg:text-28px font-bold text-center leading-none py-4	">
+		We Treat the Tough Cases.
+	</p>
+
+	<div class="bg-white">
+		<div class="container pt-4">
+			<img src="img/Layer 1.svg" class="main-logo">
+		</div>
+
+		<!-- navbar -->
+		<!-- <div class="pt-8">
+			<nav>
+				<div class="flex justify-center">
+					<nav class="flex space-x-8 text-sm font-bold">
+						<ul>
+							<li><a href="">HOME</a></li>
+						</ul>
+						<ul>
+							<li> <a href="">TREATMENT</a></li>
+						</ul>
+						<ul>
+							<li><a href="">ABOUT US</a></li>
+						</ul>
+						<ul>
+							<li> <a href="">PATIENT INFORMATION</a></li>
+						</ul><ul>
+							<li>
+								<a href="">TESTIMONIALS</a></li>
+						</ul><ul>
+							<li> <a href="">PHYSICIAN REFFERAL FORM</a></li>
+						</ul>
+						<ul>
+							<li>  <a href="">LOCATIONS</a></li>
+						</ul>
+						<ul>
+							<li><a href="">BLOG</a></li>
+						</ul>
+					 </nav>
+				</div>
+			</nav>
+		</div> -->
+
+        <!-- NAVBAR_DESKTOP -->
+        <div id="navbar" class="w-full mt-5 lg:mt-0" style="z-index: 99999;">
+            <nav class="container mx-auto hidden md:flex justify-center items-center text-center h-16">
+                <!-- HOME -->
+                <div class="flex items-center h-full font-semibold text-xs-13 lg:text-sm text-secondary hover:bg-primary hover:text-white navbar-hover">
+                    <a href="/var/www/project/snoreexperts/public/index.html" class="px-2 lg:px-4 h-full uppercase leading-5 flex items-center">Home</a>
+                </div>
+                <!-- treatments -->
+                <div class="flex items-center h-full font-semibold text-xs-13 lg:text-sm text-secondary hover:bg-primary hover:text-white navbar-hover relative nav-header">
+                    <a href="/var/www/project/snoreexperts/public/pages/procedures/index.html" class="px-2 lg:px-4 h-full uppercase leading-5 flex items-center">Treatments</a>
+                    <div class="absolute left-0 nav-child font-normal text-left text-white top-full">
+                        <a href="/var/www/project/snoreexperts/public/pages/procedures/sleep-apnea-overview/index.html" class="hover:bg-green-350 transition duration-100 block p-1 px-3 nav-child-text">Snoring & Sleep Apnea</a>
+                        <a href="/var/www/project/snoreexperts/public/pages/procedures/nightlase-oral-appliance/index.html" class="hover:bg-green-350 transition duration-100 block p-1 px-3 nav-child-text">Nightlase® Snoring & Apnea Treatment</a>
+                        <a href="/var/www/project/snoreexperts/public/pages/procedures/smoothlase/index.html" class="hover:bg-green-350 transition duration-100 block p-1 px-3 nav-child-text">SmoothLase™</a>
+                        <a href="/var/www/project/snoreexperts/public/pages/procedures/home-sleep-apnea-test/index.html" class="hover:bg-green-350 transition duration-100 block p-1 px-3 nav-child-text">Home Sleep Apnea Test</a>
+                        <a href="/var/www/project/snoreexperts/public/pages/procedures/home-sleep-study/index.html" class="hover:bg-green-350 transition duration-100 block p-1 px-3 nav-child-text">Home Sleep Studies</a>
+                        <a href="/var/www/project/snoreexperts/public/pages/procedures/oral-appliance/index.html" class="hover:bg-green-350 transition duration-100 block p-1 px-3 nav-child-text">Oral Appliances</a>
+                        <div class="hover:bg-green-350 transition duration-100 flex items-center p-1 px-3 nav-child-text relative nav-header-2">
+                            <a href="/var/www/project/snoreexperts/public/pages/procedures/cpap/index.html" class="w-full">CPAP/APAP</a> <i class="fas fa-caret-right ml-auto"></i>
+                            <div class="nav-child-2 absolute left-full -top-2 bg-primary" style="width: 220px;">
+                                <a href="/var/www/project/snoreexperts/public/pages/procedures/cpap/cpap-alternatives/index.html" class="hover:bg-green-350 transition duration-100 block p-1 px-3 nav-child-text">CPAP Alternatives</a>
+                                <a href="/var/www/project/snoreexperts/public/pages/procedures/cpap/cpap-intolerance/index.html" class="hover:bg-green-350 transition duration-100 block p-1 px-3 nav-child-text">CPAP Intolerance</a>
+                            </div>
+                        </div>
+                        <a href="/var/www/project/snoreexperts/public/pages/get-a-home-sleep-study-now/index.html" class="hover:bg-green-350 transition duration-100 block p-1 px-3 nav-child-text">Get A Home Sleep Study Now</a>
+                        <div class="hover:bg-green-350 transition duration-100 flex items-center p-1 px-3 nav-child-text relative nav-header-2">
+                            <a href="/var/www/project/snoreexperts/public/pages/procedures/facial-cosmetic/index.html" class="w-full">Facial Cosmetic</a> <i class="fas fa-caret-right ml-auto"></i>
+                            <div class="nav-child-2 absolute left-full -top-2 bg-primary" style="width: 220px;">
+                                <a href="/var/www/project/snoreexperts/public/pages/procedures/facial-cosmetic/botox-cosmetic/index.html" class="hover:bg-green-350 transition duration-100 block p-1 px-3 nav-child-text">BOTOX® Cosmetic</a>
+                                <a href="/var/www/project/snoreexperts/public/pages/procedures/facial-cosmetic/cosmetic-facial-fillers/index.html" class="hover:bg-green-350 transition duration-100 block p-1 px-3 nav-child-text">Cosmetic Facial Fillers</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- about us -->
+                <div class="flex items-center h-full font-semibold text-xs-13 lg:text-sm text-secondary hover:bg-primary hover:text-white navbar-hover relative nav-header">
+                    <a href="/var/www/project/snoreexperts/public/pages/meet-us/index.html" class="px-2 lg:px-4 h-full uppercase leading-5 flex items-center">About Us</a>
+                    <div class="absolute left-0 nav-child font-normal text-left text-white" style="top: 100%;width: 250px;">
+                        <a href="/var/www/project/snoreexperts/public/pages/meet-us/jay-b-reznick-d-m-d-m-d/index.html" class="hover:bg-green-350 transition duration-100 block p-1 px-3 nav-child-text">Jay B. Reznick D.M.D., M.D.</a>
+                        <a href="/var/www/project/snoreexperts/public/pages/meet-us/jonathan-greenburg-d-d-s/index.html" class="hover:bg-green-350 transition duration-100 block p-1 px-3 nav-child-text">Jonathan Greenburg D.D.S.</a>
+                    </div>
+                </div>
+                <!-- patient information -->
+                <div class="flex items-center h-full font-semibold text-xs-13 lg:text-sm text-secondary hover:bg-primary hover:text-white navbar-hover relative nav-header">
+                    <a href="/var/www/project/snoreexperts/public/pages/patient-information/index.html" class="px-2 lg:px-4 h-full uppercase leading-5 flex items-center">Patient Information</a>
+                    <div class="absolute left-0 nav-child font-normal text-left text-white" style="top: 100%;width: 230px;">
+                        <a href="/var/www/project/snoreexperts/public/pages/patient-information/faqs/index.html" class="hover:bg-green-350 transition duration-100 block p-1 px-3 nav-child-text">FAQ's</a>
+                        <a href="/var/www/project/snoreexperts/public/pages/patient-information/financial-policy/index.html" class="hover:bg-green-350 transition duration-100 block p-1 px-3 nav-child-text">Financing</a>
+                        <a href="/var/www/project/snoreexperts/public/pages/patient-information/schedule-a-consultation/index.html" class="hover:bg-green-350 transition duration-100 block p-1 px-3 nav-child-text">Schedule a Consultation</a>
+                        <a href="/var/www/project/snoreexperts/public/pages/patient-information/patient-forms/index.html" class="hover:bg-green-350 transition duration-100 block p-1 px-3 nav-child-text">Patient Form</a>
+                    </div>
+                </div>
+                <!-- testimonial -->
+                <div class="flex items-center h-full font-semibold text-xs-13 lg:text-sm text-secondary hover:bg-primary hover:text-white navbar-hover">
+                    <a href="/var/www/project/snoreexperts/public/pages/testimonials/index.html" class="px-2 lg:px-4 h-full uppercase leading-5 flex items-center">Testimonials</a>
+                </div>
+                <!-- physician referral form -->
+                <div class="flex items-center h-full font-semibold text-xs-13 lg:text-sm text-secondary hover:bg-primary hover:text-white navbar-hover">
+                    <a href="/var/www/project/snoreexperts/public/pages/physician-referral-form/index.html" class="px-2 lg:px-4 h-full uppercase leading-5 flex items-center">Physician Referral Form</a>
+                </div>
+                <!-- location -->
+                <div class="flex items-center h-full font-semibold text-xs-13 lg:text-sm text-secondary hover:bg-primary hover:text-white navbar-hover relative nav-header">
+                    <a href="/var/www/project/snoreexperts/public/pages/contact-us/index.html" class="px-2 lg:px-4 h-full uppercase leading-5 flex items-center">Locations</a>
+                    <div class="absolute left-0 nav-child font-normal text-left text-white" style="top: 100%;width: 200px;">
+                        <a href="/var/www/project/snoreexperts/public/pages/contact-us/tarzana-office/index.html" class="hover:bg-green-350 transition duration-100 block p-1 px-3 nav-child-text">Tarzana Office</a>
+                    </div>
+                </div>
+                <!-- blog -->
+                <div class="flex items-center h-full font-semibold text-xs-13 lg:text-sm text-secondary hover:bg-primary hover:text-white navbar-hover">
+                    <a href="/var/www/project/snoreexperts/public/blog/index.html" class="px-2 lg:px-4 h-full uppercase leading-5 flex items-center">Blog</a>
+                </div>
+            </nav>
+        </div>
+        <div class="h-16 w-full bg-white hidden" id="navbar-switcher"></div>
+        <!-- END_NAVBAR_DESKTOP -->
+
+		<!-- legally we are not -->
+		<div class="container pt-4">
+			<p class="text-center text-xl md:text-3xl lg:text-35px  mx-auto max-w-xl">
+				Legally we are not allowed to say
+				<span class="font-bold text-green-500">we are the best</span>
+				but...
+			</p>
+			<p class="text-center text-40px  mx-auto max-w-5xl pb-4"> There’s a reason why Doctors choose <span class=" font-bold text-green1">SnoreExperts</span>
+				for their own snoring and sleep apnea treatments!</p>
+		</div>
+	</div>
+
+		<!-- no imagine a life -->
+	<div class="bg-gray1 flex justify-center">
+		<div class="text-center">
+			<p class="text-3xl pt-6">Now imagine a life without snoring, these people did...</p>
+			<img class="mx-auto w-full  max-w-2xl " src="img/Layer 24.png" alt="">
+			<div class="flex justify-center">
+				<img class="h-10 w-10" src="img/Polygon 1.png" alt="">
+				<img class="h-10 w-10" src="img/Polygon 1.png" alt="">
+				<img class="h-10 w-10" src="img/Polygon 1.png" alt="">
+				<img class="h-10 w-10" src="img/Polygon 1.png" alt="">
+				<img class="h-10 w-10" src="img/Polygon 1.png" alt="">
+			</div>
+			<p class="text-4xl pt-4">“A Whole New Life”</p>
+			<p class="text-3xl pt-3 pb-5">Carol, Orange County, CA</p>
+		</div>
+	</div>
+
+	<!-- am i candidate? -->
+	<div class="bg-blue-purple">
+		<div class="max-w-768px mx-auto lg:flex-row md:flex-row">
+			<div class="flex justify-between	items-center py-12">
+				<div class="">
+					<p class="mx-auto  max-w-xs text-white text-3xl font-thin ">Call to schedule a FREE consultation today!</p>
+				</div>
+				<button class="border-2 border-white rounded-full py-1 px-4 text-20px font-black bg-gradient-to-tr from-green-400 to-green-600">
+					Am I a candidate?
+				</button>
+				<div class="flex-col flex  items-center ">
+					<p  class="text-max-w-xs underline text-5xl text-white font-thin ">(818) 578-3500</p>
+					<p class="text-white text-lg">Limited appointment availability</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- we offffer  the most advenced -->
+	<div  class="bg-white pt-12">
+		<div class="max-w-768px mx-auto">
+			<div class="flex justify-between">
+				<div class="flex flex-col justify-end	 " >
+					<img class=" max-w-176px" src="img/sleep.png" alt="" >
+					<img class=" max-w-176px" src="img/dental.png" alt="" >
+					<img class=" max-w-176px" src="img/nightlase.png" alt="" >
+				</div>
+				<div class="text-center flex flex-col items-center ">
+					<p class="text-3xl max-w-md  ">We offer the most advanced snoring and sleep apnea treatments under one roof! </p>
+					<div>
+
+						<img  class=" max-w-xs pt-3" src="img/sleepwife.png" alt="">
+					</div>
+					<div>
+						<p class="text-3xl  pt-3" >Call to schedule a <br> FREE consultation today!</p>
+						<p class="text-4xl max-w-md underline pt-3">(818) 578-3500</p>
+					</div>
+				</div>
+				<div>
+					<img class=" max-w-176px" src="img/cpap.png" alt="" ">
+					<img class=" max-w-176px" src="img/surgery.png" alt="" ">
+					<img class=" max-w-176px" src="img/plus.png" alt="" ">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- snore expert helped mee -->
+	<div class="bg-blue-purple1">
+		<div class="flex justify-center items-center flex-col lg:flex-row pb-10	lg:pb-0 ">
+			<img class="h-96 w-96 pb-0"  src="img/Layer 16.png" alt="" >
+			<div class="flex flex-col justify-center items-center ">
+				<p class="text-white text-3xl font-light" > <span class="font-bold">“SnoreExperts</span> helped me </p>
+				<p class="text-white text-3xl font-light" >	treat my sleep apnea”</p>
+				<p class="font-bold text-3xl pt-4 text-white">Dave Hollister</p>
+				<p class="text-white pt--1 font-light">  Grammy award winning R&B singer,</p>
+				<p class="text-white pt--1 font-light">songwriter,  producer</p>
+				<p class="text-white text-1xl font-bold pt-2 ">Listen to my story <br> Watch my video</p>
+				<img class="h-16 w-22 pt-4 " src="img/Layer 17.png" alt="" >
+			</div>
+		</div>
+	</div>
+
+	<!-- snore expert news -->
+	<div class="bg-blue-purple py-12">
+		<div class="flex justify-center flex-col lg:flex-row">
+			<div class="flex flex-col items-center">
+				<p class="text-white text-3xl"> <span class="font-bold ">SnoreExperts</span> in the news!</p>
+				<img class="w-64 h-68 pt-8" src="img/Rounded Rectangle 1.png" >
+			</div>
+			<div  class="flex flex-col items-center">
+				<img class="w-14 h-14" src="img/phone.png" alt="">
+				<div style="margin-left: auto; margin-right: auto; " class="text-center">
+					<p class="text-white max-w-2xl text-4xl pt-2 font-light">Call to schedule a <br> FREE consultation today! </p>
+					<p class="text-white text-5xl underline pt-3 font-extralight " >(818) 578-3500</p>
+					<p class="text-white text-bold text-4xl pt-7">Limited appointment <br> availability</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- having treated thousand -->
+	<div class="bg-green1">
+		<div class="container">
+			<div class="flex justify-between py-9 flex-col lg:flex-row">
+				<img class="h-70 w-96 mx-auto lg:mx-0" src="img/tv.png" alt="">
+				<div class="text-center">
+					<p class="text-white text-center italic text-2xl font-thin max-w-3xl">Having treated thousands of patients, they <br> have seen it all.  From the easy cases to <br> the most challenging.  Their tagline is “We <br> Treat the Tough Cases” and why patients <br> who have not had success elsewhere, end <br> up coming to SnoreExperts.</p>
+					<p class="text-white text-2xl font-semibold max-w-3xl">Dr. Greenburg</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- its all about you -->
+	<div class="bg-white pt-8">
+		<div class="max-w-768px mx-auto ">
+			<div class="flex justify-around  items-center flex-col lg:flex-row">
+				<div class="lg:mb-0 mb-12">
+					<p class="text-4xl font-medium text-green1">It’s all about you!</p>
+					<p class="max-w-xs text-3xl">Yes, we treat some of the biggest celebrities, but we treat everyone as if you are a member of our family.  Because when you come to Snore Experts, you are.</p>
+				</div>
+				<div>
+					<div class="flex flex-col items-center">
+						<div class="flex justify-center pt-4">
+							<img class="h-6 w-6" src="img/Polygon 1.png" alt="">
+							<img class="h-6 w-6" src="img/Polygon 1.png" alt="">
+							<img class="h-6 w-6" src="img/Polygon 1.png" alt="">
+							<img class="h-6 w-6" src="img/Polygon 1.png" alt="">
+							<img class="h-6 w-6" src="img/Polygon 1.png" alt="">
+						</div>
+						<p class="text-2xl">“Thanks For Saving My Life”</p>
+						<p class="text-1xl">Beverly Leys, Santa Monica, CA</p>
+					</div>
+					<div class="flex flex-col items-center pt-4 pt-4">
+						<div class="flex justify-center">
+							<img class="h-6 w-6" src="img/Polygon 1.png" alt="">
+							<img class="h-6 w-6" src="img/Polygon 1.png" alt="">
+							<img class="h-6 w-6" src="img/Polygon 1.png" alt="">
+							<img class="h-6 w-6" src="img/Polygon 1.png" alt="">
+							<img class="h-6 w-6" src="img/Polygon 1.png" alt="">
+						</div>
+						<p class="text-2xl">“Thanks For Saving My Life”</p>
+						<p class="text-1xl">Beverly Leys, Santa Monica, CA</p>
+					</div>
+					<div class="flex flex-col items-center pt-4">
+						<div class="flex justify-center">
+							<img class="h-6 w-6" src="img/Polygon 1.png" alt="">
+							<img class="h-6 w-6" src="img/Polygon 1.png" alt="">
+							<img class="h-6 w-6" src="img/Polygon 1.png" alt="">
+							<img class="h-6 w-6" src="img/Polygon 1.png" alt="">
+							<img class="h-6 w-6" src="img/Polygon 1.png" alt="">
+						</div>
+						<p class="text-2xl">“Thanks For Saving My Life”</p>
+						<p class="text-1xl">Beverly Leys, Santa Monica, CA</p>
+					</div>
+					<div class="flex flex-col items-center pt-4">
+						<div class="flex justify-center">
+							<img class="h-6 w-6" src="img/Polygon 1.png" alt="">
+							<img class="h-6 w-6" src="img/Polygon 1.png" alt="">
+							<img class="h-6 w-6" src="img/Polygon 1.png" alt="">
+							<img class="h-6 w-6" src="img/Polygon 1.png" alt="">
+							<img class="h-6 w-6" src="img/Polygon 1.png" alt="">
+						</div>
+						<p class="text-2xl">“Thanks For Saving My Life”</p>
+						<p class="text-1xl">Beverly Leys, Santa Monica, CA</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- meet our expert doctor -->
+	<div class="bg-gray2">
+		<div class="max-w-768px mx-auto">
+			<p class="text-3xl font-bold py-8 text-gray-800">Meet our Expert Doctors</p>
+			<p class="text-1xl">Dr. Reznick and Dr. Greenburg are 2 of the most prominent Sleep Doctors in the Country.  They lecture and 		train Dentists 1nd Physicians throughout the US.  They are regularly interviewed on Radio & TV including; Morning and 			Nightly News Programs, Bloomberg, CBS, Dr. Oz and many others.
+				<br> <br>
+				Don’t be surprised if during your treatment, you meet visiting Doctors learning “Over-the-Shoulder” from the Snore Experts Team.
+			</p>
+			<div class="flex justify-around pt-6">
+				<div class="flex flex-col items-center">
+					<img class="h-80 w-60" src="img/doctor2.png" alt="">
+					<p class="text-2xl font-bold pt-6 text-gray-800">Jay B. Reznick D.M.D., M.D.</p>
+					<p class="text-lg underline font-semibold pb-8">Learn More</p>
+				</div>
+				<div class="flex flex-col items-center">
+					<img class="h-80 w-60" src="img/doctor2.png" alt="">
+					<p class="text-2xl font-bold pt-6 text-gray-800">Jay B. Reznick D.M.D., M.D.</p>
+					<p class="text-lg underline font-semibold pb-8">Learn More</p>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- the time is for change is now -->
+	<div class="bg-blue-purple">
+		<div class="flex flex-col items-center">
+			<p class="text-5xl text-white font-thin pt-6">The time for change is now!</p>
+			<p class="text-1xl text-white font-thin pt-4 max-w-md ">Yes, even at this incredible office, our consultations are free.
+				We know you have to meet us.  Only then can you know why you want to join our family of successfully treated patients.
+			</p>
+			<p class="text-2xl text-white font-bold pt-2">Call us now to schedule your FREE Consultation</p>
+			<p class="text-4xl text-white font-thin py-4 underline" >(818) 578-3500</p>
+		</div>
+	</div>
+
+	<!-- sign up to our news letter -->
+	<div class="bg-green1">
+		<div class="max-w-768px mx-auto">
+			<p class="text-4xl text-white font-bold text-center py-6"> Sign up to our Newsletter</p>
+			<p class="text-sm text-white font-thin text-center"> Medical Technology and science is always changing and here at SnoreExperts we pride ourselves in providing the leading
+				and most effective snore and sleep apnea treatments to all our patients, as part of our commitment to a better and healthier life,
+			   we will like to email you a weekly newsletter with all the information you need to make a more informed decision.</p>
+
+		</div>
+	</div>
+
+	<!-- Most Insurances and Medicare Welcome -->
+	<div class="bg-white">
+		<div class="max-w-screen-sm mx-auto">
+			<p class="text-4xl text-gray-800 font-bold text-center py-6"> Most Insurances and Medicare Welcome</p>
+			<p class="text-sm text-black font-thin text-center">Insurance is important, and we accept most of them. In some cases, with certain treatment options,
+				and high deductibles, there is no coverage. In those situations, we have payment options <br>
+				so you can still get the treatment you need.
+			</p>
+
+		</div>
+	</div>
+
+</body>
+</html>
+
+
+
+
+

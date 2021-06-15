@@ -1,0 +1,33 @@
+.main-logo {
+    width: 313px;
+    height: 158px;
+}
+.navbar-hover {
+    transition: all 0.3s;
+}
+.navbar-hover:hover {
+    transition: all 0s;
+}
+.nav-header:hover .nav-child, .nav-header-2:hover .nav-child-2 {
+    height: auto;
+    padding: 0.5rem;
+    background-color: rgba(29, 123, 56, var(--tw-bg-opacity));
+    overflow: visible;
+    opacity: 1;
+    z-index: 99999;
+}
+.nav-child, .nav-child-2 {
+    overflow: hidden;
+    transition: opacity 0.5s;
+    width: 345px;
+    box-shadow: 0px 2px 4px #555;
+    height: 0px;
+    opacity: 0;
+}
+.nav-child-text {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.navbar-changed a {
+    color: white;
+}
