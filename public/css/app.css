@@ -31,3 +31,30 @@
 .navbar-changed a {
     color: white;
 }
+
+
+.fb-hover:hover {
+    background-color: #3b5998;
+    border-color: #3b5998;
+    color: white;
+}
+.ig-hover:hover {
+    background-color: #517fa4;
+    border-color: #517fa4;
+    color: white;
+}
+.twitter-hover:hover {
+    background-color: #00aced;
+    border-color: #00aced;
+    color: white;
+}
+.yt-hover:hover {
+    background-color: #bb0000;
+    border-color: #bb0000;
+    color: white;
+}
+.yelp-hover:hover {
+    background-color: #ce2200;
+    border-color: #ce2200;
+    color: white;
+}
