@@ -16,6 +16,9 @@ module.exports = {
       },
     },
     extend: {
+      fontFamily: {
+        body: ['Roboto'],
+      },
       screens: {
         '3xl': '1920px',
         '2xl': '1160px',
@@ -34,6 +37,7 @@ module.exports = {
         'container': '1160px',
         '176px': '176px',
         '100px': '100px',
+        '40px': '40px',
       },
       colors: {
         primary: "#1d7b38",
@@ -87,6 +91,10 @@ module.exports = {
         xl: '48px',
         xll: '64px',
         xxl: '94px',
+       },
+       borderWidth: {
+         '5' : '5px',
+         '6' : '6px'
        },
        textColor: theme => theme('colors'),
     },
