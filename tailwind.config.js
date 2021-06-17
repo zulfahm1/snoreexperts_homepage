@@ -1,6 +1,6 @@
 module.exports = {
   purge: {
-    enabled: true,
+    // enabled: true,
     content: [
         './**/*.html'
     ]
@@ -71,8 +71,13 @@ module.exports = {
         '42px': '42px',
         '40px': '40px',
         '35px': '35px',
+        '32px': '32px',
+        '30px': '30px',
         '28px': '28px',
+        '25px': '25px',
+        '23px': '23px',
         '20px': '20px',
+        '18px': '18px',
       },
       height: {
         sm: '8px',
@@ -89,6 +94,11 @@ module.exports = {
         xl: '48px',
         xll: '64px',
         xxl: '94px',
+        '5%': '5%',
+        '10%': '10%',
+        '15%': '15%',
+        '20%': '20%',
+        '25%': '25%',
        },
        borderWidth: {
          '5' : '5px',
