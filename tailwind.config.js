@@ -1,33 +1,27 @@
 module.exports = {
   purge: {
-    enabled: true,
+    // enabled: true,
     content: [
         './**/*.html'
     ]
   },
   darkMode: false, // or 'media' or 'class'
   theme: {
-    container: {
-      center: true,
-      padding: {
-        DEFAULT: '2rem',
-        sm: '4rem',
-        lg: '6rem',
-        xl: '8rem',
-        '2xl': '12rem',
-      },
-    },
     extend: {
+      container: {
+        center: true,
+      },
       fontFamily: {
         body: ['Roboto'],
       },
       screens: {
         '3xl': '1920px',
-        '2xl': '1160px',
+        '2xl': '1600px',
         // '4xl': '2560px'
       },
       maxWidth: {
         '1470px': '1470px',
+        'container': '1160px',
         '1100px': '1100px',
         '1648px': '1648px',
         '927px': '927px',
@@ -36,10 +30,12 @@ module.exports = {
         '586px': '586px',
         '428px': '428px',
         '380px': '380px',
-        'container': '1160px',
         '176px': '176px',
         '100px': '100px',
         '40px': '40px',
+        '35px': '35px',
+        '30px': '30px',
+        '20px': '20px',
       },
       colors: {
         primary: "#1d7b38",
