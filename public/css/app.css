@@ -58,3 +58,11 @@
     border-color: #ce2200;
     color: white;
 }
+.button-am-i-candidate {
+    background: rgb(164,227,79);
+    background: linear-gradient(180deg, rgba(164,227,79,1) 0%, rgba(143,201,65,1) 50%, rgba(164,227,79,1) 100%);
+}
+.button-submit {
+    background: rgb(133,103,204);
+background: linear-gradient(180deg, rgba(133,103,204,1) 0%, rgba(95,63,171,1) 19%, rgba(83,58,142,1) 50%, rgba(95,63,171,1) 93%, rgba(133,103,204,1) 100%);
+}
