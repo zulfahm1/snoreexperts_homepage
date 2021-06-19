@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "dev": "npx tailwindcss-cli@latest build ./src/css/style.css -o ./public/css/tailwind.css"
+    "dev": "tailwindcss build ./src/css/style.css -o ./public/css/tailwind.css"
   },
-  "author": "pahmi",
+  "author": "",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^10.2.6",

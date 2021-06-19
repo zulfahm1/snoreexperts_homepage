@@ -561,20 +561,6 @@ video {
   }
 }
 
-.card {
-  --tw-bg-opacity: 1;
-  background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
-  --tw-border-opacity: 1;
-  border-color: rgba(209, 213, 219, var(--tw-border-opacity));
-  border-radius: 0.5rem;
-  border-width: 1px;
-  margin-left: 1rem;
-  margin-right: 1rem;
-  padding: 1rem;
-  --tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
 .space-y-3 > :not([hidden]) ~ :not([hidden]){
   --tw-space-y-reverse: 0;
   margin-top: calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));
@@ -672,11 +658,6 @@ video {
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
-}
-
-.bg-green-350{
-  --tw-bg-opacity: 1;
-  background-color: rgba(143, 201, 65, var(--tw-bg-opacity));
 }
 
 .bg-green-500{
@@ -1102,10 +1083,6 @@ video {
   line-height: 1;
 }
 
-.text-50px{
-  font-size: 50px;
-}
-
 .text-40px{
   font-size: 40px;
 }
@@ -1124,10 +1101,6 @@ video {
 
 .text-28px{
   font-size: 28px;
-}
-
-.text-25px{
-  font-size: 25px;
 }
 
 .text-20px{
@@ -1283,12 +1256,12 @@ video {
   max-width: 640px;
 }
 
-.max-w-768px{
-  max-width: 768px;
+.max-w-screen-lg{
+  max-width: 1024px;
 }
 
-.max-w-428px{
-  max-width: 428px;
+.max-w-768px{
+  max-width: 768px;
 }
 
 .max-w-176px{
@@ -1434,6 +1407,10 @@ video {
   padding-bottom: 3rem;
 }
 
+.pt-0{
+  padding-top: 0px;
+}
+
 .pb-0{
   padding-bottom: 0px;
 }
@@ -1508,14 +1485,6 @@ video {
 
 .pt-12{
   padding-top: 3rem;
-}
-
-.pb-16{
-  padding-bottom: 4rem;
-}
-
-.pt-20{
-  padding-top: 5rem;
 }
 
 .placeholder-current::-moz-placeholder{
@@ -1951,10 +1920,6 @@ video {
 
 .grid-cols-1{
   grid-template-columns: repeat(1, minmax(0, 1fr));
-}
-
-.grid-cols-2{
-  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .grid-cols-4{
@@ -2451,6 +2416,10 @@ video {
     font-size: 42px;
   }
 
+  .md\:text-40px{
+    font-size: 40px;
+  }
+
   .md\:text-35px{
     font-size: 35px;
   }
@@ -2474,6 +2443,11 @@ video {
   .md\:px-10{
     padding-left: 2.5rem;
     padding-right: 2.5rem;
+  }
+
+  .md\:px-20{
+    padding-left: 5rem;
+    padding-right: 5rem;
   }
 
   .md\:shadow-sm{
@@ -2624,6 +2598,11 @@ video {
     padding-bottom: 0px;
   }
 
+  .lg\:px-0{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
   .lg\:px-2{
     padding-left: 0.5rem;
     padding-right: 0.5rem;
@@ -2664,6 +2643,14 @@ video {
 
   .lg\:pr-2{
     padding-right: 0.5rem;
+  }
+
+  .lg\:pt-10{
+    padding-top: 2.5rem;
+  }
+
+  .lg\:pb-16{
+    padding-bottom: 4rem;
   }
 
   .lg\:shadow-md{

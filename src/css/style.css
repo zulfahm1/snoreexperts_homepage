@@ -2,9 +2,4 @@
 
 @tailwind base;
 @tailwind components;
-
-.card {
-  @apply bg-white p-4 rounded-lg shadow-lg mx-4 border-gray-300 border;
-}
-
 @tailwind utilities

@@ -107,10 +107,5 @@ module.exports = {
        textColor: theme => theme('colors'),
     },
   },
-  variants: {
-    extend: {
-
-    },
-  },
   plugins: [],
 }
