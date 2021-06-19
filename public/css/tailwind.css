@@ -1260,6 +1260,10 @@ video {
   max-width: 1024px;
 }
 
+.max-w-1100px{
+  max-width: 1100px;
+}
+
 .max-w-768px{
   max-width: 768px;
 }
