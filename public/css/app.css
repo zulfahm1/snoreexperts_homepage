@@ -64,5 +64,5 @@
 }
 .button-submit {
     background: rgb(133,103,204);
-background: linear-gradient(180deg, rgba(133,103,204,1) 0%, rgba(95,63,171,1) 19%, rgba(83,58,142,1) 50%, rgba(95,63,171,1) 93%, rgba(133,103,204,1) 100%);
+    background: linear-gradient(180deg, rgba(133,103,204,1) 0%, rgba(95,63,171,1) 19%, rgba(83,58,142,1) 50%, rgba(95,63,171,1) 93%, rgba(133,103,204,1) 100%);
 }
