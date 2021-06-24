@@ -816,10 +816,6 @@ video {
   border-bottom-width: 4px;
 }
 
-.border-l{
-  border-left-width: 1px;
-}
-
 .decoration-slice{
   -webkit-box-decoration-break: slice;
           box-decoration-break: slice;
@@ -1040,10 +1036,6 @@ video {
 
 .h-full{
   height: 100%;
-}
-
-.h-screen{
-  height: 100vh;
 }
 
 .text-xs{
@@ -1322,10 +1314,6 @@ video {
   overflow: hidden;
 }
 
-.overflow-y-auto{
-  overflow-y: auto;
-}
-
 .overflow-x-hidden{
   overflow-x: hidden;
 }
@@ -1441,10 +1429,6 @@ video {
 
 .pr-2{
   padding-right: 0.5rem;
-}
-
-.pl-2{
-  padding-left: 0.5rem;
 }
 
 .pt-3{
@@ -2402,10 +2386,6 @@ video {
 
   .md\:flex{
     display: flex;
-  }
-
-  .md\:hidden{
-    display: none;
   }
 
   .md\:flex-row{
